@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IpexAccess", "IpexAccess\IpexAccess.csproj", "{BC318C59-59BA-42B6-8CCD-E155F26AFDA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC318C59-59BA-42B6-8CCD-E155F26AFDA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC318C59-59BA-42B6-8CCD-E155F26AFDA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC318C59-59BA-42B6-8CCD-E155F26AFDA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC318C59-59BA-42B6-8CCD-E155F26AFDA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5413D15A-A16F-4D0E-AE18-A3AC2FD2A247}
+	EndGlobalSection
+EndGlobal
