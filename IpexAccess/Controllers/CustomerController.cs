@@ -1,14 +1,32 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+
+using IpexAccess.Data;
+using IpexAccess.Models;
 
 namespace IpexAccess.Controllers
 {
     public class CustomerController : Controller
     {
+
+        // Database Connection:
+        private readonly ApplicationDbContext _db;
+
+        public CustomerController(ApplicationDbContext db)
+        {
+            _db = db;
+        }
+
         // GET: CustomerController
         public ActionResult Index()
         {
-            return View();
+            IEnumerable<Customer> CustomerList = _db.Customers;
+            return View(CustomerList);
         }
 
         // GET: CustomerController/Details/5
